@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/sink.jpg",
+    "title": "Stainless Sink Installation"
+  },
+  {
+    "id": 2,
+    "img": "/assets/reverse.jpg",
+    "title": "Reverse Osmosis Installation"
+  },
+  {
+    "id": 3,
+    "img": "/assets/pvc.jpg",
+    "title": "PVC pipes Installation"
+  },
+  {
+    "id": 4,
+    "img": "/assets/surbmersive.jpg",
+    "title": "Surbmersive Surface Water Pump Installation"
+  },
+  {
+    "id": 5,
+    "img": "/assets/plant.jpg",
+    "title": "Treatment plant Installation"
+  },
+  {
+    "id": 6,
+    "img": "/assets/pumping.jpg",
+    "title": "Pumping machine Installation"
+  }
+]

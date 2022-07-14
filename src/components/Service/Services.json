@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/sink.jpg",
+    "title": "Stainless Sink Installation",
+    "desc": "Have a clogged drain or toilet? We can get the job done. Even the all-powerful Pointing has no control."
+  },
+  {
+    "id": 2,
+    "img": "/assets/reverse.jpg",
+    "title": "Reverse Osmosis Installation",
+    "desc": "Have a clogged drain or toilet? We can get the job done. Even the all-powerful Pointing has no control."
+  },
+  {
+    "id": 3,
+    "img": "/assets/pvc.jpg",
+    "title": "PVC pipes Installation",
+    "desc": "Have a clogged drain or toilet? We can get the job done. Even the all-powerful Pointing has no control."
+  },
+  {
+    "id": 4,
+    "img": "/assets/surbmersive.jpg",
+    "title": "Surbmersive Surface Water Pump Installation",
+    "desc": "Have a clogged drain or toilet? We can get the job done. Even the all-powerful Pointing has no control."
+  },
+  {
+    "id": 5,
+    "img": "/assets/plant.jpg",
+    "title": "Treatment plant Installation",
+    "desc": "Have a clogged drain or toilet? We can get the job done. Even the all-powerful Pointing has no control."
+  },
+  {
+    "id": 6,
+    "img": "/assets/pumping.jpg",
+    "title": "Pumping machine Installation",
+    "desc": "Have a clogged drain or toilet? We can get the job done. Even the all-powerful Pointing has no control."
+  },
+  {
+    "id": 7,
+    "img": "/assets/henco.jpg",
+    "title": "Henco fittings Installation",
+    "desc": "Have a clogged drain or toilet? We can get the job done. Even the all-powerful Pointing has no control."
+  },
+  {
+    "id": 8,
+    "img": "/assets/sewage.jpg",
+    "title": "Sewage Installation",
+    "desc": "Have a clogged drain or toilet? We can get the job done. Even the all-powerful Pointing has no control."
+  }
+]
