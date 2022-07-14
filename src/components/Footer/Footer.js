@@ -93,7 +93,7 @@ const Footer = () => {
               </Nav>
               <Nav sp>
                 <Link
-                  to="/products"
+                  to="/product"
                   style={{ color: "inherit", textDecoration: "none" }}
                   onClick="window.refresh()"
                 >
