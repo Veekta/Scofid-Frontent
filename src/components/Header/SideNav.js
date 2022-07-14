@@ -30,7 +30,7 @@ const SideNav = () => {
           <Nav to="/projects" onClick="window.refresh()">
             Project
           </Nav>
-          <Nav to="/products" onClick="window.refresh()">
+          <Nav to="/product" onClick="window.refresh()">
             Product
           </Nav>
           <Nav to="/about" onClick="window.refresh()">
