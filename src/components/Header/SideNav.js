@@ -33,6 +33,9 @@ const SideNav = () => {
           <Nav to="/product" onClick="window.refresh()">
             Product
           </Nav>
+          <Nav to="/contact" onClick="window.refresh()">
+            Contact
+          </Nav>
           <Nav to="/about" onClick="window.refresh()">
             About
           </Nav>
@@ -94,9 +97,11 @@ const SecondDetail = styled.div`
   font-family: var(--nun);
   color: #b0b0b0;
 `;
-const Detail = styled.div``;
+const Detail = styled.div`
+  font-size: 15px;
+`;
 const Detail2 = styled.div`
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   font-family: var(--mont);
   color: #001733;
@@ -114,7 +119,7 @@ const Icon = styled(IoMdTime)`
 `;
 const Time = styled.div`
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 `;
 const Btn = styled.div`
   width: 100%;
@@ -134,9 +139,9 @@ const Btn2 = styled.button`
 const Nav = styled(Link)`
   border-top: 0.4px solid rgba(0, 0, 0, 0.06);
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.06);
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
-  height: 60px;
+  height: 40px;
   display: flex;
   align-items: center;
   color: #444444;
@@ -145,17 +150,17 @@ const Nav = styled(Link)`
 `;
 const Navigations = styled.div`
   width: 100%;
-  margin: 20px 0; ;
+  margin: 10px 0; ;
 `;
 const LogoDiv = styled.div`
   width: 100%;
-  height: 60px;
+  /* height: 50px; */
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   img {
-    height: 60px;
+    height: 50px;
     width: 170px;
     object-fit: cover;
   }
@@ -164,7 +169,6 @@ const LogoDiv = styled.div`
 const Wrapper = styled.div`
   width: 85%;
   background-color: white;
-  height: 100%;
   display: flex;
   flex-direction: column;
 `;
@@ -178,6 +182,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   z-index: 100;
+  position: fixed;
   background-color: white;
   @media (min-width: 768px) {
     display: none;
