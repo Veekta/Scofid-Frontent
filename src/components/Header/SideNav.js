@@ -15,11 +15,11 @@ const SideNav = () => {
   return (
     <Container>
       <Wrapper>
-        <Link to="/" onClick="window.refresh()">
-          <LogoDiv>
+        <LogoDiv>
+          <Link to="/" onClick="window.refresh()">
             <img src="/assets/scofid-logo.png" />
-          </LogoDiv>
-        </Link>
+          </Link>
+        </LogoDiv>
         <Navigations>
           <Nav to="/" onClick="window.refresh()">
             Home
@@ -150,7 +150,7 @@ const Nav = styled(Link)`
 `;
 const Navigations = styled.div`
   width: 100%;
-  margin: 10px 0; ;
+  margin: 15px 0;
 `;
 const LogoDiv = styled.div`
   width: 100%;
@@ -161,10 +161,10 @@ const LogoDiv = styled.div`
   cursor: pointer;
   img {
     height: 50px;
-    width: 170px;
+    width: 140px;
     object-fit: cover;
   }
-  margin-top: 30px;
+  margin-top: 10px;
 `;
 const Wrapper = styled.div`
   width: 85%;
