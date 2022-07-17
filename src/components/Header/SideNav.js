@@ -176,7 +176,7 @@ const Container = styled.div`
   height: 100vh;
   width: 70%;
   background-color: white;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
