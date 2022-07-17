@@ -58,6 +58,9 @@ const TexDiv = styled.div`
     text-align: center;
     align-items: center;
   }
+  @media (max-width: 320px) {
+    gap: 5px;
+  }
 `;
 const Btn = styled.button`
   border: none;
@@ -110,9 +113,13 @@ const Top = styled.div`
   font-family: var(--mont);
   align-items: center;
   cursor: pointer;
+
   @media (max-width: 768px) {
     display: flex;
     justify-content: center;
+  }
+  @media (max-width: 320px) {
+    margin-top: 25px;
   }
 `;
 const Darker = styled.div`
