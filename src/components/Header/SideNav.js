@@ -149,13 +149,13 @@ const Nav = styled(Link)`
   align-items: center;
   color: #444444;
   font-weight: 500;
-  height: 40px;
+  height: 50px;
   text-decoration: none;
 `;
 const Navigations = styled.div`
   width: 100%;
   /* margin: 10px 0; */
-  height: 45%;
+  height: 40%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;

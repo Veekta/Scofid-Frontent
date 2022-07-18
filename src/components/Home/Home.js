@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import Hero from "../Pages/Hero";
 import Cardlayer from "../Pages/Layer1";
 import { Work1, Work2 } from "../Pages/Work";
@@ -6,7 +7,7 @@ import Project from "../Pages/Project";
 
 const Home = () => {
   return (
-    <div>
+    <Container>
       <Hero />
       <Cardlayer />
       <Work1
@@ -20,8 +21,13 @@ const Home = () => {
         view="View Our Projects"
       />
       <Project />
-    </div>
+    </Container>
   );
 };
 
 export default Home;
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
