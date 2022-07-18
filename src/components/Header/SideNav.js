@@ -123,14 +123,13 @@ const Time = styled.div`
 const Btn = styled.div`
   width: 100%;
   height: 15%;
-  display: flex;
   align-items: center;
   /* background-color: red; */
   justify-content: center;
   align-items: flex-end;
 `;
 const Btn2 = styled.button`
-  width: 200px;
+  width: 100%;
   height: 50px;
   border: 0;
   border-radius: 5px;
@@ -139,6 +138,7 @@ const Btn2 = styled.button`
   font-size: 16px;
   font-family: var(--mont);
   font-weight: 600;
+  margin-top: 40px;
 `;
 const Nav = styled(Link)`
   border-top: 0.4px solid rgba(0, 0, 0, 0.06);
@@ -176,7 +176,7 @@ const LogoDiv = styled.div`
 `;
 const Wrapper = styled.div`
   height: 100%;
-  width: 90%;
+  width: 85%;
   background-color: white;
   display: flex;
   /* justify-content: center; */
